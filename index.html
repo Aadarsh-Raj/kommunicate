@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kommunicate - Solution Engineer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>1. UI project</h1>
+      <div class="outer-container">
+        <div class="content-container">
+          <div class="paragraph-box">
+            <p>Ready to Automate your <span> E-Commerce store? </span></p>
+          </div>
+          <div class="button-box">
+            <button>Try for free</button>
+            <button>Book a demo</button>
+          </div>
+        </div>
+        <div class="designed-container"></div>
+      </div>
+      <br />
+      <br />
+      <h1>2. Url param getter</h1>
+      <div class="param-container">
+        <pre>
+            function getUrlParameterValue(url, param) {
+                let urlObj = new URL(url);
+                let paramValue = new URLSearchParams(urlObj.search);
+                return paramValue.get(param);
+            }
+            getUrlParameterValue();
+          </pre
+        >
+      </div>
+      <h1>3. Reverse the number</h1>
+      <div class="code-container">
+        <pre>
+            const num = 15463;
+            function reverseNumber(num) {
+                const str = num.toString();
+                let reversedNumber = "";
+                for (let i = str.length - 1; i >= 0; i--) {
+                  reversedNumber += str.charAt(i);
+                }
+                return parseInt(reversedNumber);
+              }
+            reverseNumber(num);
+        </pre>
+      </div>
+      <h1>4. My Project - Studynotion</h1>
+      <div class="code-container" style="padding:1rem 3rem ;">
+        Hosted Link:
+      <a href="https://main--arya-studynotion.netlify.app/">Link</a> <br> Explanation
+      Link:
+      <a
+        href="https://drive.google.com/file/d/1CVv-jCxI6TfLub3eyVa44xsuDkbAZck0/view?usp=sharing"
+        >Click</a
+      >
+      </div>
+    </main>
+    <script>
+      //     function getUrlParameterValue(url, param) {
+      //       let urlObj = new URL(url);
+      //       let paramValue = new URLSearchParams(urlObj.search);
+      //       return paramValue.get(param);
+      //   }
+
+      //   function reverseNumber(num) {
+      //     const str = num.toString();
+      //     let reversedNumber = "";
+      //     for (let i = str.length - 1; i >= 0; i--) {
+      //       reversedNumber += str.charAt(i);
+      //     }
+      //     console.log(parseInt(reversedNumber));
+      //     return parseInt(reversedNumber);
+      //   }
+      //   reverseNumber(num);
+    </script>
+  </body>
+</html>
