@@ -93,7 +93,11 @@ main {
 }
 
 @media screen and (max-width: 550px) {
+    h1{
+        font-size: 2rem;
+    }
     .outer-container{
+        height: 250px;
         width:100%;
     }
     .content-container{
@@ -109,8 +113,11 @@ main {
     .button-box{
         gap: 0.5rem;
     }
+    .button-box button{
+        height: 32px;
+    }
     .designed-container{
-        width: 150px;
-        height: 130px;
+        width: 120px;
+        height: 85px;
     }
 }
